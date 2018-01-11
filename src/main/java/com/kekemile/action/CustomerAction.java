@@ -27,12 +27,18 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
 
 	public void Test() {
 
-		System.out.println("customer.cust_name = " + customer.getCust_name());
+		// System.out.println("customer.cust_name = " +
+		// customer.getCust_name());
 
-		System.out.println("执行 CustomerAction 中的 Test() 方法");
+		// System.out.println("执行 CustomerAction 中的 Test() 方法");
 
 		customerService.add(customer);
 
+	}
+
+	public String update() {
+		
+		return NONE;
 	}
 
 }

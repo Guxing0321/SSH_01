@@ -14,4 +14,11 @@ public class CustomerDaoImpl extends HibernateDaoSupport implements CustomerDao 
 		this.getHibernateTemplate().save(customer);
 	}
 
+	public void udpate(Customer customer) {
+		// TODO Auto-generated method stub
+
+		this.getHibernateTemplate().update(customer);
+
+	}
+
 }

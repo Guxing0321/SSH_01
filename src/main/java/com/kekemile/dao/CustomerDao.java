@@ -10,4 +10,6 @@ import com.kekemile.model.Customer;
  */
 public interface CustomerDao {
 	public void add(Customer customer);
+
+	public void udpate(Customer customer);
 }
