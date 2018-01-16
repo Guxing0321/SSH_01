@@ -30,14 +30,14 @@ public class CustomerAction extends ActionSupport implements ModelDriven<Custome
 		// System.out.println("customer.cust_name = " +
 		// customer.getCust_name());
 
-		// System.out.println("Ö´ÐÐ CustomerAction ÖÐµÄ Test() ·½·¨");
+		// System.out.println("Ö´ï¿½ï¿½ CustomerAction ï¿½Ðµï¿½ Test() ï¿½ï¿½ï¿½ï¿½");
 
 		customerService.add(customer);
 
 	}
 
 	public String update() {
-		
+
 		return NONE;
 	}
 
